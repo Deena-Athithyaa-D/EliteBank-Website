@@ -10,13 +10,13 @@
     <nav class="nav">
       <h3>Login,to get started</h3>
       <img src="assets/logo.png" alt="" />
-      <input type="text" placeholder="id" class="input-name input" />
-      <input type="password" placeholder="pin" class="input-pin input" />
+      <input type="text" placeholder="&nbsp;id" class="input-name input" />
+      <input type="password" placeholder="&nbsp;pin" class="input-pin input" />
     </nav>
     <div class="app">
       <div class="balance">
         <div class="balance-left">
-          <h1>Current Balance </h1>
+          <h1>Current Balance</h1>
           <br />
           <h2 class="date">As of Sunday</h2>
         </div>
@@ -24,20 +24,41 @@
         <p class="balance-amount">2500₹</p>
       </div>
       <div class="money">
-      <div class="transactions">
-        <div class="transactions-row">
-          <div class="trasaction-deposit">1 deposit</div>
-          <div class="transactions-date">25/2/2024</div>
-          <div>8000₹</div>
+        <div class="transactions">
+          <div class="transactions-row">
+            <div class="transactions-deposit">1 deposit</div>
+            <div class="transactions-date">25/2/2024</div>
+            <div class="transactions-money">8000₹</div>
+          </div>
+          <div class="transactions-row">
+            <div class="transactions-withdrawal">2 withdrawal</div>
+            <div class="transactions-date">25/2/2024</div>
+            <div class="transactions-money">-800₹</div>
+          </div>
         </div>
-        <div class="transactions-row">
-          <div class="trasaction-withdrawal">1 deposit</div>
-          <div class="transactions-date">25/2/2024</div>
-          <div>-800₹</div>
-        </div
+        <div class="transfer-money">
+          <h2>Transfer Money</h2>
+          <input
+            type="text"
+            placeholder="&nbsp;id"
+            class="transfer-money-id input"
+          />
+          <input
+            type="number"
+            placeholder="&nbsp;amount"
+            class="transfer-money-amount input"
+          />
+        </div>
+        <div class="transfer-money loan">
+          <h2>Request Loan</h2>
+          <input
+            type="text"
+            class="input loan-amount"
+            placeholder="loan amount"
+          />
+          <!-- <button class="arrow-btn" ><img src="assets/arrow.png" alt="" /></button> -->
+        </div>
       </div>
-      <div class="transfer-money"></div>
-    </div>
     </div>
   </body>
 </html>
