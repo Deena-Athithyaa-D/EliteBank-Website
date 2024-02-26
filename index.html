@@ -10,8 +10,14 @@
     <nav class="nav">
       <h3>Login,to get started</h3>
       <img src="assets/logo.png" alt="" />
-      <input type="text" placeholder="&nbsp;id" class="input-name input" />
-      <input type="password" placeholder="&nbsp;pin" class="input-pin input" />
+      <form action="" class="login-form">
+        <input type="text" placeholder="&nbsp;id" class="input-name input" />
+        <input
+          type="password"
+          placeholder="&nbsp;pin"
+          class="input-pin input"
+        /><button class="arrow-btn login-btn">&rarr;</button>
+      </form>
     </nav>
     <div class="app">
       <div class="balance">
@@ -36,27 +42,58 @@
             <div class="transactions-money">-800₹</div>
           </div>
         </div>
+
+
         <div class="transfer-money">
           <h2>Transfer Money</h2>
-          <input
-            type="text"
-            placeholder="&nbsp;id"
-            class="transfer-money-id input"
-          />
-          <input
-            type="number"
-            placeholder="&nbsp;amount"
-            class="transfer-money-amount input"
-          />
+          <form action="">
+            <input
+              type="text"
+              placeholder="&nbsp;id"
+              class="transfer-money-id input"
+            />
+            <input
+              type="number"
+              placeholder="&nbsp;amount"
+              class="transfer-money-amount input"
+            /><button class="arrow-btn trasnfer-money-btn">&rarr;</button>
+          </form>
         </div>
         <div class="transfer-money loan">
           <h2>Request Loan</h2>
-          <input
-            type="text"
-            class="input loan-amount"
-            placeholder="loan amount"
-          />
-          <!-- <button class="arrow-btn" ><img src="assets/arrow.png" alt="" /></button> -->
+          <form action="" class="loan-form">
+            <input
+              type="number"
+              class="input loan-amount"
+              placeholder="loan amount"
+            />
+            <button class="arrow-btn loan-btn">&rarr;</button>
+          </form>
+        </div>
+        <div class="transfer-money delete-account">
+          <h2>Delete Account</h2>
+          <form action="" class="da-form">
+            <input type="text" placeholder="&nbsp;id" class="da-id input" />
+            <input
+              type="number"
+              placeholder="&nbsp;amount"
+              class="da-pin input"
+            /><button class="arrow-btn da-btn">&rarr;</button>
+          </form>
+        </div>
+        <div class="summary">
+          <div class="summary-in">
+            <p class="summary-in-value">7300₹</p>
+            IN
+          </div>
+          <div class="summary-out">
+            <p class="summary-out-value">800₹</p>
+            OUT
+          </div>
+          <div class="sumamry-int">
+            <p class="sumamry-int-value">8₹</p>
+            Intreset
+          </div>
         </div>
       </div>
     </div>
