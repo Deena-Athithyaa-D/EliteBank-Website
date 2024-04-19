@@ -6,7 +6,6 @@ import Summary from "./Summary";
 import TransferOperation from "./TransferOperation";
 import LoanOperation from "./LoanOperation";
 import CloseAccount from "./CloseAccount";
-import LogoutTimer from "./LogoutTimer";
 import "./App.css";
 
 const createUsernames = function (accs) {
