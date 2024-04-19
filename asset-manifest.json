@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/EliteBank-Website/static/css/main.34fb6714.css",
-    "main.js": "/EliteBank-Website/static/js/main.6f126c86.js",
+    "main.js": "/EliteBank-Website/static/js/main.0fa85fb4.js",
     "index.html": "/EliteBank-Website/index.html",
     "main.34fb6714.css.map": "/EliteBank-Website/static/css/main.34fb6714.css.map",
-    "main.6f126c86.js.map": "/EliteBank-Website/static/js/main.6f126c86.js.map"
+    "main.0fa85fb4.js.map": "/EliteBank-Website/static/js/main.0fa85fb4.js.map"
   },
   "entrypoints": [
     "static/css/main.34fb6714.css",
-    "static/js/main.6f126c86.js"
+    "static/js/main.0fa85fb4.js"
   ]
 }
