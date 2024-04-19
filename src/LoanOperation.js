@@ -18,17 +18,17 @@ const LoanOperation = ({ currentUser, setCurrentUser }) => {
     }
   };
   return (
-    <div className="operation operation--loan">
+    <div className="operation operation-loan">
       <h2>Request loan</h2>
-      <form className="form form--loan" onSubmit={handleLoan}>
+      <form className="form form-loan" onSubmit={handleLoan}>
         <input
           value={loanAmount}
           type="number"
-          className="form__input form__input--loan-amount"
+          className="form-input "
           onChange={(e) => setLoanAmount(e.target.value)}
         />
-        <button className="form__btn form__btn--loan">&rarr;</button>
-        <label className="form__label form__label--loan">Amount</label>
+        <button className="form-btn ">&rarr;</button>
+        <label className="form-label form-label--loan">Amount</label>
       </form>
     </div>
   );

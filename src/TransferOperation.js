@@ -64,22 +64,22 @@ const TransferOperation = ({
   return (
     <div className="operation operation--transfer">
       <h2>Transfer money</h2>
-      <form className="form form--transfer" onSubmit={handleTransfer}>
+      <form className="form " onSubmit={handleTransfer}>
         <input
           type="text"
           value={transferTo}
           onChange={(e) => setTransferTo(e.target.value)}
-          className="form__input form__input--to"
+          className="form-input "
           placeholder="Transfer to"
         />
         <input
           type="number"
           value={transferAmount}
           onChange={(e) => setTransferAmount(e.target.value)}
-          className="form__input form__input--amount"
+          className="form-input "
           placeholder="Amount"
         />
-        <button type="submit" className="form__btn form__btn--transfer">
+        <button type="submit" className="form-btn ">
           &rarr;
         </button>
       </form>

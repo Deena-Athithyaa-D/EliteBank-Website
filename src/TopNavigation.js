@@ -37,16 +37,16 @@ const TopNavigation = ({ currentUser, setCurrentUser, accounts }) => {
           value={inputLoginUsername}
           onChange={(e) => setInputLoginUsername(e.target.value)}
           placeholder="Username"
-          className="login__input login__input--user"
+          className="login-input "
         />
         <input
           type="password"
           value={inputLoginPin}
           onChange={(e) => setInputLoginPin(e.target.value)}
           placeholder="PIN"
-          className="login__input login__input--pin"
+          className="login-input "
         />
-        <button className="login__btn" type="submit">
+        <button className="login-btn" type="submit">
           &rarr;
         </button>
       </form>

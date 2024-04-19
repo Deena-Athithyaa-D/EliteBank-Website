@@ -23,11 +23,11 @@ const Movements = ({ acc }) => {
       {sortedMovements.map((mov, i) => {
         const type = mov > 0 ? "deposit" : "withdrawal";
         return (
-          <div key={i} className="movements__row">
-            <div className={`movements__type movements__type--${type}`}>
+          <div key={i} className="movements-row">
+            <div className={`movements-type movements-type--${type}`}>
               {i + 1} {type}
             </div>
-            <div className="movements__value">{mov}€</div>
+            <div className="movements-value">{mov}€</div>
           </div>
         );
       })}

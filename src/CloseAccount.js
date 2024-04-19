@@ -31,29 +31,29 @@ const CloseAccountOperation = ({
   };
 
   return (
-    <div className="operation operation--close">
+    <div className="operation operation-close">
       <h2>Close account</h2>
-      <form className="form form--close" onSubmit={handleCloseAccount}>
+      <form className="form " onSubmit={handleCloseAccount}>
         <input
           type="text"
           value={inputUsername}
           onChange={(e) => setInputUsername(e.target.value)}
-          className="form__input form__input--user"
+          className="form-input"
           placeholder="Enter username"
         />
         <input
           type="password"
           value={inputPin}
           onChange={(e) => setInputPin(e.target.value)}
-          className="form__input form__input--pin"
+          className="form-input "
           placeholder="Enter PIN"
           maxLength="6"
         />
-        <button type="submit" className="form__btn form__btn--close">
+        <button type="submit" className="form-btn ">
           &rarr;
         </button>
-        <label className="form__label">Confirm user</label>
-        <label className="form__label">Confirm PIN</label>
+        <label className="form-label">Confirm user</label>
+        <label className="form-label">Confirm PIN</label>
       </form>
     </div>
   );
