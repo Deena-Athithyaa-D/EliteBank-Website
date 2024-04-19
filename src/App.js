@@ -33,12 +33,7 @@ const App = () => {
         interestRate: 1.2, // %
         pin: 1111,
       },
-      {
-        owner: "Jayakumar S",
-        movements: [430, 1000, 700, 50, 90],
-        interestRate: 1,
-        pin: 4444,
-      },
+
       {
         owner: "Balaji",
         movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
@@ -50,6 +45,12 @@ const App = () => {
         movements: [200, -200, 340, -300, -20, 50, 400, -460],
         interestRate: 0.7,
         pin: 3333,
+      },
+      {
+        owner: "Aravind",
+        movements: [430, 1000, 700, 50, 90],
+        interestRate: 1,
+        pin: 4444,
       },
     ]);
     setAccounts(initialAccounts);
